@@ -83,7 +83,7 @@
     </jacoco:report>
   </target>
   <target name="deployArtifactory" depends="findbugs">
- <artifact:deploy file="C:\Program Files (x86)\Jenkins\workspace\ant test\build\hello.jar">
+ <artifact:deploy file="C:/Program Files (x86)/Jenkins/workspace/ant test/build/hello.jar"
   <remoteRepository url="http://10.0.20.81:8082/artifactory/anttest/">
   <authentication username="admin" password="Password" />
 </remoteRepository>
